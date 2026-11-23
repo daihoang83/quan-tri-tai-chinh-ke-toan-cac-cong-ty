@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -I:*)",
+      "Bash(python3 -c:*)",
+      "Bash(node:*)",
+      "Bash(timeout:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(grep:*)",
+      "Bash(sed -n:*)",
+      "Bash(wc:*)",
+      "Bash(cd:*)",
+      "Read",
+      "Glob",
+      "Grep",
+      "Write(/mnt/project-files/**)",
+      "Edit(/mnt/project-files/**)",
+      "Write(/home/claude/**)",
+      "Edit(/home/claude/**)",
+      "Artifact",
+      "ArtifactData"
+    ]
+  }
+}
